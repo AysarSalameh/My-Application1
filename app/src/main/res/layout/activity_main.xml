@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/saqer"
+    android:layout_gravity="center"
+    android:scaleX=".7"
+    android:scaleY=".7"
+    />
+
+    <TextView
+        android:text="@string/saqer"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:textColor="#95DC4D"
+        android:textSize="28dp"
+       />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/text1"
+        android:textSize="28dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btu"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:textSize="28dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+
+        />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:text="We need your help to expose the travel companies who exploit wildlife for profit. When customers show they won’t support wild animals used for exploitative entertainment, travel companies change their policies and end ticket sales for these attractions. Read our report to discover the top five operators who are failing wildlife and help us convince them they have a risky and unsustainable future."
+            android:textColor="@color/white"
+            />
+</androidx.appcompat.widget.LinearLayoutCompat>
